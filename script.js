@@ -48,11 +48,12 @@ var listItem = document.getElementById('list-item');
 // ------------ADD INPUT AND LIST
 
 let ul = document.querySelector('ul');
+let addInput = document.getElementById('add-input');
+	
 
-document.getElementById('add-btn').addEventListener('click', function(e) {
+document.getElementById('add-btn').addEventListener('click', (e) => {
 	e.preventDefault();
 	
-	let addInput = document.getElementById('add-input');
 	
 	if(addInput.value !== '') {
 	
